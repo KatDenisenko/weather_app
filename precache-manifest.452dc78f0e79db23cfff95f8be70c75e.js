@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/weather_app/static/media/magnolia-trees.912d96ff.jpg"
   },
   {
-    "revision": "65be491a9724ecc13feb",
+    "revision": "2c983bf4713bb887abd6",
     "url": "/weather_app/static/css/main.11d2a0c5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/weather_app/static/media/tree.9178a61a.jpg"
   },
   {
-    "revision": "24efd40d8ee38ad4a7b3",
-    "url": "/weather_app/static/js/1.24efd40d.chunk.js"
+    "revision": "df313deecfe49caafe41",
+    "url": "/weather_app/static/js/1.df313dee.chunk.js"
   },
   {
     "revision": "2b8e50d38204ea6f6971",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/weather_app/static/media/lone-tree.c6f94998.jpg"
   },
   {
-    "revision": "65be491a9724ecc13feb",
-    "url": "/weather_app/static/js/main.65be491a.chunk.js"
+    "revision": "2c983bf4713bb887abd6",
+    "url": "/weather_app/static/js/main.2c983bf4.chunk.js"
   },
   {
     "revision": "0ad5cda08456c0c1d98df347ffcfbd3d",
@@ -88,11 +88,11 @@ self.__precacheManifest = [
     "url": "/weather_app/static/media/the-mouth.4d2ccc43.jpg"
   },
   {
-    "revision": "24efd40d8ee38ad4a7b3",
+    "revision": "df313deecfe49caafe41",
     "url": "/weather_app/static/css/1.5d18fd2e.chunk.css"
   },
   {
-    "revision": "ffe156d6007566950d099496a9ad1065",
+    "revision": "760f7503925e6d49fc3c9ecd314913e4",
     "url": "/weather_app/index.html"
   }
 ];
