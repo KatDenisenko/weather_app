@@ -1,0 +1,251 @@
+.header {
+    width:80%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid grey; */
+}
+
+@media (min-width: 320px) {
+    .header {
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;}
+
+    .geo {
+        margin-bottom: 2rem;
+        border: 3px outset lightblue;
+        border-radius: 4%;
+        text-align: center;
+        padding: 0.3rem 0rem;
+        background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8));
+        width: 91%;
+    }
+    .searchInput {
+        position: relative;
+        width:100%;
+    }
+    .searchImg {
+        width: auto;
+        height:  2rem;
+        position: absolute;
+        top: 3px;
+        right: 4px;
+    }
+
+    .mistakeMessage{
+        width: 80%;
+    }
+
+    .date {
+        width:85%
+    }
+
+    .inputStyle {
+        height: 2rem;
+        border-radius: 10%;
+        outline:none;
+        border: 3px outset lightblue;
+        /* color: white; */
+        font-size: 1.2rem;
+        opacity: 0.5;
+         width: 100%;
+       }
+}
+.inputStyle:hover {
+    opacity: 0.6;
+   
+}
+
+.inputStyle::-webkit-input-placeholder { 
+    transition: .2s linear;
+    color: rgb(53, 51, 51); }
+.inputStyle::-moz-placeholder { color: rgb(53, 51, 51); }
+.text {
+    /* padding-top: 0.5rem; */
+    margin:auto;
+    color:white;
+}
+
+.favorCity>img {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    
+    }
+    
+.favorCity {
+    margin:auto;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    }
+
+    .mistakeMessage{
+    transition: .4s linear;
+    color: rgb(53, 51, 51);
+    font-size: 1rem;
+    font-weight: 500;
+   
+   
+    color: white;
+    opacity: 1;
+}
+
+.noMistake {
+    opacity: 0;
+}
+
+
+@media (min-width: 480px) {
+    .header {
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 0;
+}
+
+    .geo {
+        margin-bottom: 0;
+        /* border: 3px outset lightblue;
+        border-radius: 4%;
+        text-align: center;
+        padding: 0.3rem 0rem;
+        background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8)); */
+        width: 45%;
+    }
+    .searchInput {
+        /* position: relative; */
+        width: 90%;
+    }
+    .searchImg {
+        width: auto;
+        height:  2rem;
+        position: absolute;
+        top: 3px;
+        right: 4px;
+    }
+
+    .mistakeMessage{
+        width: 80%;
+    }
+
+    .date {
+        width:85%
+    }
+
+    .inputStyle {
+        height: 2rem;
+        border-radius: 10%;
+        outline:none;
+        border: 3px outset lightblue;
+        /* color: white; */
+        font-size: 1.2rem;
+        opacity: 0.5;
+         width: 100%;
+       }
+}
+
+@media(min-width: 768px) {
+    .geo {
+        width: 33%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .geo {
+        width: 28%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .geo {
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+    width:80%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+/* .geo {
+    
+    width:20%;
+    border: 3px outset lightblue;
+    border-radius: 4%;
+    text-align: center;
+    padding: 0.3rem;
+    background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8));
+}
+
+
+.inputStyle {
+ height: 2rem;
+ border-radius: 10%;
+ outline:none;
+ border: 3px outset lightblue;
+ 
+ font-size: 1.2rem;
+ opacity: 0.5;
+}
+.inputStyle:hover {
+    opacity: 0.6;
+   
+}
+
+.inputStyle::-webkit-input-placeholder { 
+    transition: .2s linear;
+    color: rgb(53, 51, 51); }
+.inputStyle::-moz-placeholder { color: rgb(53, 51, 51); }
+.text {
+   
+    margin:auto;
+    color:white;
+}
+.date {
+    width:90%
+}
+.favorCity>img {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    
+    }
+    
+.favorCity {
+    margin:auto;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    }
+
+    .mistakeMessage{
+    transition: .4s linear;
+    color: rgb(53, 51, 51);
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+    color: white;
+    opacity: 1;
+}
+
+.noMistake {
+    opacity: 0;
+} */

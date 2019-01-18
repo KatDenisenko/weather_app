@@ -1,0 +1,44 @@
+@media (min-width: 320px) {
+    .favorList {
+        width:33%;
+        right: 5.2rem;
+    }
+}
+.favorList {
+    /* width:12%; */
+    padding:0.2rem;
+    border: 3px outset lightblue;
+    border-radius: 3%;
+    height: fit-content;
+    position: absolute;
+    /* right: 12.2rem; */
+    background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8));
+ 
+}
+
+.listItom {
+    list-style: none;
+    text-decoration: none;
+    padding:0.1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid lightblue;
+    cursor: pointer;
+}
+
+.listItom img {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .favorList {
+        width:25%;
+        right: 5.2rem;
+    }
+}
+@media (min-width: 1200px) {
+    .favorList {
+        width:11%;
+        right: 13.2rem;
+    }
+}

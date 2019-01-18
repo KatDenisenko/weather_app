@@ -1,0 +1,226 @@
+.fiveDay {
+ 
+    display: flex;
+   
+    justify-content: space-between;
+    /* padding:1rem; */
+    margin:auto;
+    
+}
+@media (min-width: 320px) {
+    .fiveDay {   
+        overflow-y: scroll;
+        padding:0.2rem;
+        flex-wrap: wrap;
+        height: 81vh;
+        flex-direction: column;
+        width:93%;
+    }
+    .currentOur{
+        width:93%;
+        padding: 0.5rem;
+        border-radius: 2%;
+    
+
+    }
+    .day {
+    
+        width: 100%;
+        border-radius: 2%;
+    }
+    /* .wrapper {
+        width:100%;
+    } */
+    .pressure {
+        display: none;
+    }
+  
+    .chartWrapper {
+            display: none;
+        }
+        
+     
+
+}
+
+.currentOur{
+    /* width:18%; */
+    border: 3px outset lightblue;
+    margin: 0.1rem;
+    /* padding: 0.2rem; */
+    /* border-radius: 5%; */
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8));
+}
+
+.day {
+    
+    /* width: 18%; */
+    border: 3px outset lightblue;
+    margin: 0.1rem;
+    /* border-radius: 5%; */
+    color:rgb(255, 255, 255);;
+    background-image: linear-gradient(rgba(69, 123, 143, 0.8), rgba(177, 220, 235, 0.8));
+}
+
+.morning {
+  
+    margin:0.25rem;
+    padding:0.1rem;
+}
+
+.evening {
+   
+    margin:0.25rem;
+    padding: 0.1rem;
+}
+
+.imageWrapper {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    padding:0.1rem;
+    margin:0.2rem;
+    height:80px;
+}
+
+.wrapper {
+    width:35%;
+    text-align: center;
+}
+
+.temper_data {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+
+.dayPart {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+.moment {
+    padding: 0 7px;
+    text-align: center;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+
+.fiveDayWrapper {
+    
+    margin: auto auto 2rem auto;
+    border: 3px outset lightblue;
+    border-radius: 1%;
+
+}
+
+.loaderWrapper {
+    margin:auto;
+    padding:4rem;
+}
+
+@media (min-width: 480px) {
+    .forecatDescrWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    }
+    .textWrapper{
+        width: 57%
+    }
+    .fiveDay {     
+        height: 58vh;
+    }
+    
+    .pressure {
+        display: block;
+    }
+   
+    /* .chartWrapper {
+            display: inline-block;
+        } */
+        
+    }
+    
+    @media (min-width: 768px) {
+        .forecatDescrWrapper {
+        display: block;
+        flex-wrap: none;
+        /* justify-content: space-between; */
+        
+        }
+        .textWrapper{
+            width: 57%
+        }
+        .fiveDay {     
+            height: 265px;
+            width:98%;
+        }
+        
+        .pressure {
+            display: block;
+        }
+       
+        .chartWrapper {
+                display: block;
+            }
+        .day {
+                width: 50%;
+                
+        }
+        .wrapperMorningEvening {
+            display: flex;
+        }
+        .currentOur{
+
+            width:18%;
+        }
+        .textWrapper{
+            width: 100%
+        }
+    }
+    @media (min-width: 1024px) {
+        
+            .day {
+                    width: 33%;
+                    
+            }
+            .currentOur{
+
+                width:31%;
+            }
+            .wrapperMorningEvening {
+                display: block;
+            }
+            .fiveDay {     
+                height: 400px;
+                overflow-y: hidden;
+                /* width:98%; */
+            }
+            
+        }
+
+        @media (min-width: 1200px) {
+        
+            .day {
+                    width: 18%;
+            }
+            .currentOur{
+
+                width:18%;
+            }
+            .wrapperMorningEvening {
+                display: block;
+            }
+            .fiveDay {     
+                height: 500px;
+                /* overflow-y: none; */
+                /* width:98%; */
+            }
+           
+        }
